@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {font-family: sans-serif; line-height: 1.5; 
+}
+
+h1, h2, h3 {text-transform: uppercase; font-weight: 300; 
+}
+
+
+header {
+	text-align: center;
+	color: white;
+	/*background-color: green; */
+	/*background-image: url(../images/header-bg.jpg); */
+	/*background-repeat: no-repeat; */
+	background: green url(../images/header-bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 30px;
+
+}
+	 
+a {color: white;
+	text-decoration: none;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+	/*padding-top: 10px;*/
+	/*padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px*/
+	
+
+
+a:hover { 
+	border-bottom: 1px solid white;
+ }
+
+header li {display: inline;}
+
+.container	{
+	border: 3px dotted red;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.recipes {
+	width: 60%; 	
+	float: left;
+}
+
+.cookie {
+	float: left; 
+	width: 50%;
+	padding: 0 20px;
+}
+
+
+.sidebar {
+	width: 40%;
+	float: right;
+}
+
+footer {clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
